@@ -57,7 +57,7 @@ const CategoriesData = () => {
 
   return (
     <div className="p-4 bg-base-100">
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center">
         {categories.slice(0, visibleCount).map((item, index) => (
           <div
             key={index}
